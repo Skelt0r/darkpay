@@ -1,9 +1,9 @@
 #!/bin/bash
 
+cd /root
+
 number=$(ls | grep darkpaycoin |wc -l)
 number=$(($number-1))
-
-cd /root
 
 wget https://darkpaycoin.io/utils/dpc_fastsync.zip
 
