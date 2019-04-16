@@ -2,7 +2,7 @@
 
 cd /root
 
-number=$(ls | grep darkpaycoin | wc -l)
+number=$(ls -al | grep darkpaycoin | wc -l)
 number=$(($number-1))
 
 echo "N0"
