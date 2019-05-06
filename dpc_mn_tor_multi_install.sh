@@ -270,11 +270,15 @@ $PROXY_STRING
 listen=1
 server=1
 daemon=1
-addnode=136.243.185.4:6667
 addnode=46.101.231.40:6667
-addnode=67.99.220.116:6667
+addnode=128.199.198.131:6667
 addnode=206.189.173.84:6667
-addnode=142.93.97.228:6667
+addnode=138.68.108.10:6667
+whitelist=46.101.231.40:6667
+whitelist=128.199.198.131:6667
+whitelist=206.189.173.84:6667
+whitelist=138.68.108.10:6667
+
 EOF
 }
 
