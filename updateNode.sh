@@ -2,7 +2,7 @@
 
 cd /root
 
-number=$(ls | grep darkpaycoin |wc -l)
+number=$(ls -al | grep darkpaycoin | wc -l)
 number=$(($number-1))
 
 wget https://darkpaycoin.io/utils/dpc_fastsync.zip
